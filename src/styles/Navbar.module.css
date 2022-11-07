@@ -1,0 +1,21 @@
+.menu{
+    background: #e05a01;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+}
+.menu a{
+    color: #FFF;
+    margin: 5px 15px;
+}
+
+@media screen and (min-width:768px) {
+    .menu{
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 20px;
+    }
+    
+}
